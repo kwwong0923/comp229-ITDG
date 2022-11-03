@@ -13,7 +13,7 @@ module.exports.displayLoginPage = (req, res) =>
 // display signup page
 module.exports.displaySignUpPage = (req, res) => 
 {
-    res.render("signup", {title: "Sign Up", user: req.user });
+    res.render("signup", {title: "Sign Up"});
 }
 
 // local signup function
